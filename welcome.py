@@ -3,7 +3,7 @@ def find_average(values):
     v: object
     for v in values:
         result += v
-    return result / len(values)
+    return result
 
 
 print("AVERAGE", find_average([5,6, 7, 8]))
